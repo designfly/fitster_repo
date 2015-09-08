@@ -20,7 +20,7 @@ $args = array(
     if ( $my_query->have_posts() ) :
     ?>
 			<div class="polecane">
-				<h2>Polecane dla Ciebie</h2>
+				<h2>Polecane</h2>
 				<hr><br>
 				<?php 
 				    while( $my_query->have_posts() ) :
