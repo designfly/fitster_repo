@@ -12546,8 +12546,8 @@ div.bbp-breadcrumb, div.bbp-topic-tags{
 	}
 
 	.navbar-brand>img{
-		width: 35px;
-        height: 25px;
+		width: auto;
+        height: 30px;
 	}
 }
 
