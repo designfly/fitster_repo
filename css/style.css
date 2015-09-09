@@ -12594,3 +12594,8 @@ div.bbp-breadcrumb, div.bbp-topic-tags{
 .yamm-content > .col-md-3{
 padding-left: 0px;
 }
+
+
+.fa.fa-chevron-down {
+    padding-left: 5px;
+}
