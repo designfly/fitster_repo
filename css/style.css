@@ -12599,3 +12599,7 @@ padding-left: 0px;
 .fa.fa-chevron-down {
     padding-left: 5px;
 }
+
+.fa.fa-eye:hover {
+    color: #fff !important;
+}
