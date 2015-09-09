@@ -12525,10 +12525,7 @@ div.bbp-breadcrumb, div.bbp-topic-tags{
 		margin-top: -50px;
 	}
 
-	.navbar-brand>img{
-		height:40px;
-		margin-top: 30px;
-	}
+
 
 }
 
@@ -12537,6 +12534,11 @@ div.bbp-breadcrumb, div.bbp-topic-tags{
 		margin-top: 10px;
 	}
 
+    	.navbar-brand>img{
+		height:40px;
+		margin-top: 30px;
+	}
+    
 	.shop .top .header{
 		border-bottom: 65px solid #00ADEF;
 	}
