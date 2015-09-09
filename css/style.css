@@ -12586,3 +12586,10 @@ div.bbp-breadcrumb, div.bbp-topic-tags{
 	}
 }
 
+
+
+/* Designfly.pl theme fixed */
+
+.yamm-content > .col-md-3{
+padding-left: 0px;
+}
