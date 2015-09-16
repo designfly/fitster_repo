@@ -10,7 +10,7 @@
 		</div>	
 		<div class="bg">
 		
-			<div id="opis-portalu-home" class="col-md-12">
+			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sztanga.png">
