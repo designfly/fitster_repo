@@ -12616,12 +12616,12 @@ padding-left: 0px;
 */
 
 
-#opis-portalu-home > div > col-md-3{
+#opis-portalu-home > .col-md-3{
     padding-left: 90px;
     padding-top: 20px;
 }
 
-#opis-portalu-home > div > col-md-3{
+#opis-portalu-home > .col-md-3 {
 background-color: rgba(0, 173, 239,0.7);
 cursor: pointer;
 }
