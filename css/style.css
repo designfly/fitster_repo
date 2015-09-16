@@ -12612,5 +12612,6 @@ padding-left: 0px;
 
 .col-md-3:hover{
 background-color: #2574A9;
-color: #fff;
+color: #fff !important;
+cursor: pointer;
 }
