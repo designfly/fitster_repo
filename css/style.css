@@ -12603,3 +12603,7 @@ padding-left: 0px;
 .fa.fa-eye:hover {
     color: #fff !important;
 }
+
+.row .tiles .col-md-3 img{
+padding-left: 20px;
+}
