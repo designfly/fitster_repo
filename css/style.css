@@ -12604,6 +12604,7 @@ padding-left: 0px;
     color: #fff !important;
 }
 
-.row .tiles .col-md-3 img{
+#home .row .tiles .col-md-3 img{
 padding-left: 20px;
 }
+
