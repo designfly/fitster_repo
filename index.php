@@ -10,28 +10,29 @@
 		
 			<div id="opis-portalu-home">
 				<div class="row">
-					<div class="tiles col-md-3">
+				<div id="tiles">
+					<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sztanga.png">
 						<h2>Ćwiczenia</h2>
 						<p><?php echo get_option('fitster_cwiczenia');?></p>
 					</div>	
-					<div class="tiles col-md-3">
+					<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/biceps.png">
 						<h2>Treningi</h2>
 						<p><?php echo get_option('fitster_treningi');?></p>
 					</div>
-						<div class="tiles col-md-3">
+						<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/broccoli.png">
 						<h2>odżywianie</h2>
 						<p><?php echo get_option('fitster_odzywianie');?></p>
 					</div>	
-					<div class="tiles col-md-3">
+					<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/proteins.png">
 						<h2>suplementacja</h2>
 						<p><?php echo get_option('fitster_suplementacja');?></p>
 					</div>		
 				</div>
-							
+					</div>		
 			</div>
 			<!-- <div class="col-md-4">
 				<div class="header">

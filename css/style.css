@@ -12617,11 +12617,11 @@ padding-left: 0px;
 
 
 
-.tiles > .col-md-3 {
+#tiles > .col-md-3 {
 background-color: rgba(0, 173, 239,0.7);
 cursor: pointer;
 }
-#opis-portalu-home > div > div > col-md-3 > img{
+#tiles .col-md-3 img{
     padding-left: 90px;
     padding-top: 20px;
 }
