@@ -12611,7 +12611,6 @@ padding-left: 0px;
 
 
 .col-md-3:hover{
-background-color: #2574A9;
-color: #fff !important;
+background-color: rgba(0, 173, 239,0.7);
 cursor: pointer;
 }
