@@ -3,14 +3,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 naglowek">
-				<div class="header">
-					<h1><strong>fitster</strong></h1>
-				</div>
+				
 			</div>
 		</div>	
 		<div class="bg">
 		
-			<div class="col-md-12">
+			<div id="opis-portalu-home" class="col-md-12">
 				<div class="row">
 					<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sztanga.png">
