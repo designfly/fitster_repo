@@ -59,7 +59,7 @@ $na_query->the_post();  ?>
 							the_post_thumbnail('article_thumb');
 						} 
 					?>
-				<h3><a href="#"><?php the_title();?></a></h3>
+				<h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
 				<hr>
 				<p><?php the_excerpt();?></p>
 			</div>
