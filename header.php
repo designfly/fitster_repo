@@ -15,7 +15,9 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css?id=2" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/yamm.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/js/raty/jquery.raty.css"/>
-<?php wp_head();?>
+
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/searchFieldAnimation.js"></script>
+	<?php wp_head();?>
 </head>
 <body>
 <nav class="navbar navbar-fixed-top yamm">
