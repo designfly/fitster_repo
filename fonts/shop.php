@@ -321,7 +321,7 @@
 
 	<div class="col-md-12 p-marki">
 		<div class="marki">
-			<h2>polecane markiTETS</h2>
+			<h2>polecane marki</h2>
 			<hr>
 			<div class="controls">
 		    	<a class="jcarousel-prev" href="#"><span class="glyphicon glyphicon-chevron-left"></span></a>
