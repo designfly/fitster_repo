@@ -10274,6 +10274,7 @@ form#mpp-whats-new-form #mpp-whats-new-submit{
 	background-color: white;
 	clear: both;
 	overflow: auto;
+
 }
 
 #home .naglowek{
@@ -12621,10 +12622,10 @@ cursor: pointer;
 }
 
 .page-margin{
-height: 195px;
-    width: auto;
+padding-top: 195px;
 }
 
 .container forum{
 margin-top: 0px;
 }
+
