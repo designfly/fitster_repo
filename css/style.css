@@ -12622,10 +12622,10 @@ cursor: pointer;
 }
 
 .page-margin{
-height: 195px;
-    width: auto;
+padding-top: 195px;
 }
 
 .container forum{
 margin-top: 0px;
 }
+
