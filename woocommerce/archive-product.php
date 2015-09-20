@@ -265,7 +265,7 @@ $term_query->the_post();  ?>
 	<?php endforeach;?>
 	<div class="container">
 		<div class="col-md-12 marki">
-			<h2>polecane marki</h2>
+			<h2>polecane markidwa</h2>
 			<hr>
 			<div class="controls">
 		    	<a class="jcarousel-prev" href="#"><span class="glyphicon glyphicon-chevron-left"></span></a>
