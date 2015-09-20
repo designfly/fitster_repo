@@ -1,13 +1,5 @@
 <?php get_header();?>
-<style> 
-    .first-level{
-    display:none;
-    }
-    .secont-level{
-    display:none;
-    }
 
-</style>
 <div class="container artykuly">
 	<div class="header">
 		<h1><strong>Artykuły</strong></h1>
