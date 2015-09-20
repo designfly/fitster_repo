@@ -283,7 +283,6 @@ $term_query->the_post();  ?>
 						$featured[] = $brand;
 					//}
 				}
-					echo count($featured);
 					foreach ($featured as $brand) :
 
 						?>
