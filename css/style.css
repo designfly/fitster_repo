@@ -7330,7 +7330,6 @@ footer .media-s .fa-twitter:hover{
 
 #headerProfile{
 	height: 400px;
-	background: url('../img/bg-profile.jpg') no-repeat center center fixed;
 	-webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
