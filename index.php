@@ -1,4 +1,40 @@
 <?php get_header();?>
+<?php if (!is_buddypress() && !is_account_page() && !is_bbpress() && !is_singular( 'wykres' )) : ?>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+<?php 
+$counter = 0;
+$loop = new WP_Query( 
+                        array( 
+                        'post_type' => 'sw_slider',
+                         'posts_per_page' => -1 ) 
+                         ); ?>
+                        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+                    <div class="item <?php if($counter == 0) { echo 'active';}?>">
+                        <?php
+                        if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+                          the_post_thumbnail(); 
+                        }
+                        ?>
+                    </div>
+                    <?php $counter++; ?>
+                  <?php endwhile; wp_reset_query(); ?>
+                </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<?php endif;?>
 <div id="home">
 	<div class="container">
 		<div class="row">
