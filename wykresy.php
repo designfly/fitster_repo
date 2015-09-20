@@ -1,7 +1,7 @@
 <?php
 	include ('header.php');
 ?>
-
+<div class="page-margin"></div>
 <div id="headerProfile">
 	<div class="container">
 		<div class="row">
