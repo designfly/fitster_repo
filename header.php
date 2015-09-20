@@ -568,6 +568,6 @@ $fa_query->the_post();  ?>
 	    </div>
   </div>
 </nav>	
-<div class="page-margin"></div>
+
 
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/searchFieldAnimation.js"></script>
