@@ -1,5 +1,6 @@
 <?php /* Template Name: Znajdź Plan */  ?>
 <?php get_header();?>
+<div class="page-margin"></div>
 <?php
     $gender_options = array(
       'man' => 'Dla Mężczyzn',
