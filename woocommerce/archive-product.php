@@ -278,7 +278,7 @@ $term_query->the_post();  ?>
 
 				if(!empty($brands)) :
 				foreach ($brands as $brand) {
-					echo $brands;
+					echo $brand;
 					//if(get_woocommerce_term_meta( $brand->term_id, 'featured', true )) {
 						$featured[] = $brand;
 					//}
