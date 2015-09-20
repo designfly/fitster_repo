@@ -279,9 +279,9 @@ $term_query->the_post();  ?>
 				if(!empty($brands)) :
 				foreach ($brands as $brand) {
 					echo "XD";
-					if(get_woocommerce_term_meta( $brand->term_id, 'featured', true )) {
+					//if(get_woocommerce_term_meta( $brand->term_id, 'featured', true )) {
 						$featured[] = $brand;
-					}
+					//}
 				}
 					foreach ($featured as $brand) :?>
 					<li><a href="<?php echo get_term_link($brand->slug,'product_brand');?>">
