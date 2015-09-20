@@ -541,6 +541,7 @@ body{
 
 .dropdown-menu .part .col-md-3 ul li{
 	line-height: 10px;
+    padding-top: 20px;
 }
 
 .dropdown-menu .part .col-md-3 ul li a{
