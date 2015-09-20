@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext);
 html{
-	background: url('../img/bg.jpg') no-repeat center center fixed;
+/*	background: url('../img/bg.jpg') no-repeat center center fixed;*/
+    background-color: #fff;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -8,7 +9,7 @@ html{
 }
 
 body{
-    background-color: rgba(17, 16, 14, 0.58);
+/*    background-color: rgba(17, 16, 14, 0.58);*/
     font-family: 'Ubuntu', sans-serif;
 }
 
