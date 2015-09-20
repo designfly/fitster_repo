@@ -275,7 +275,7 @@ $term_query->the_post();  ?>
 			<div class="jcarousel">
 				<ul>
 				<?php $brands = get_terms('product_brand');
-				//echo count($brands);
+				echo count($brands);
 				if(!empty($brands)) :
 				foreach ($brands as $brand) {
 
