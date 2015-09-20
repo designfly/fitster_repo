@@ -12622,7 +12622,8 @@ cursor: pointer;
 }
 
 .page-margin{
-margin-top: 195px;
+height: 195px;
+    width: auto;
 }
 
 .container forum{
