@@ -274,6 +274,7 @@ $term_query->the_post();  ?>
 			<div class="jcarousel">
 				<ul>
 				<?php $brands = get_terms('product_brand'); 
+				echo "XD";
 				if(!empty($brands)) :
 				foreach ($brands as $brand) {
 					if(get_woocommerce_term_meta( $brand->term_id, 'featured', true )) {
