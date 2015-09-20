@@ -278,21 +278,13 @@ $term_query->the_post();  ?>
 
 					<?php
 
-					if(isset($_GET['marki'])) {
-						$brands = array(
-							'product_brand' => $_GET['marki'],
-						);
-					}
-
-
 					$brands = get_terms('product_brand');
 
 				if(!empty($brands)) :
 				foreach ($brands as $brand) {
-					echo "dwa";
-					//if(get_woocommerce_term_meta( $brand->term_id, 'featured', true )) {
+					if(get_woocommerce_term_meta( $brand->term_id, 'featured', true )) {
 						$featured[] = $brand;
-					//}
+					}
 				}
 					foreach ($featured as $brand) :
 
