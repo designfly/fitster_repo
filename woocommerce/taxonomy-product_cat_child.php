@@ -1,4 +1,5 @@
-	<div class="container category">
+<div class="page-margin"></div>
+		<div class="container category">
 		<div class="header">
 			<h1><strong>nazwa kategorii</strong></h1>
 		</div>

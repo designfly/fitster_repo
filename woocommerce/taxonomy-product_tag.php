@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="page-margin"></div>
 	<div class="container category">
 		<?php get_sidebar('shop');?>
 <?php
