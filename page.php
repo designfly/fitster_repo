@@ -3,7 +3,7 @@
     .first-level{
     display:none;
     }
-    .secont-level{
+    .second-level{
     display:none;
     }
 
