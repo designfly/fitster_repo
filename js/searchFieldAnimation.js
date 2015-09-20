@@ -2,9 +2,11 @@
  * Created by Rafal on 2015-09-19.
  */
 
-$('.searchField').focus(function() {
-    $('.search').animate({width: '450px'});
+$('.searchField button').mouseover(function() {
+    $('.second-level .searchField input').animate({width: '450px'});
+    $('.second-level .searchField select').css('visibility','visible');
 });
-$('.searchField').blur(function() {
-    $('.search').animate({width: '150px'});
+$('.navbar').mouseleave(function() {
+    $('.second-level .searchField input').animate({width: '0px'});
+    $('.second-level .searchField select').css('visibility','hidden');
 });

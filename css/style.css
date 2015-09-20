@@ -113,11 +113,12 @@ body{
 	padding-right: 10px;
 	color: black;
 	vertical-align: middle;
+	visibility: hidden;
 }
 
 .second-level .searchField input{
 	height: 40px;
-	width: 400px;
+	width: 0px;
 	font-size: 15px;
 	padding-left: 10px;
 	color: black;

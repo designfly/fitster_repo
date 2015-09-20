@@ -48,7 +48,7 @@ $na_query = new WP_Query( $args );
 if ($na_query->have_posts()) :  ?> 
 		<div class="row category">
 			<div class="header">
-				<h1><strong>Najnowsze artykułyxd</strong></h1>
+				<h1><strong>Najnowsze artykuły</strong></h1>
 			</div>
 			<div class="col-md-12">
 <?php    while ($na_query->have_posts()) :  
