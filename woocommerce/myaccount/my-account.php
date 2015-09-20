@@ -37,9 +37,7 @@ $gallery_url = $bp->root_domain . '/members/' . bp_get_loggedin_user_username() 
 	</div>
 </div>
 <div class="container profile">
-	<div class="header">
-		<h1><strong>ustawienia</strong></h1>
-	</div>
+
 	<div class="col-md-12 under"></div>
 	<div class="bg">
 		<div class="col-md-12 settings">
