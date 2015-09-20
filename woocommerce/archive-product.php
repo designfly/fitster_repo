@@ -274,7 +274,18 @@ $term_query->the_post();  ?>
 		    </div>
 			<div class="jcarousel">
 				<ul>
-				<?php $brands = get_terms('product_brand');
+
+
+					<?php
+
+					if(isset($_GET['marki'])) {
+						$brands = array(
+							'product_brand' => $_GET['marki'],
+						);
+					}
+
+
+					$brands = get_terms('product_brand');
 
 				if(!empty($brands)) :
 				foreach ($brands as $brand) {
