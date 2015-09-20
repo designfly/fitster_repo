@@ -19,7 +19,6 @@
 	<?php wp_head();?>
 </head>
 <body>
-test auto deploy 2
 <nav class="navbar navbar-fixed-top yamm">
 	<div class="first-level">
 		<div class="container">
