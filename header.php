@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/yamm.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/js/raty/jquery.raty.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src=<?php echo get_stylesheet_directory_uri(); ?>/js/facebook_like_share.js"></script>
 	<?php wp_head();?>
 </head>
 <body>

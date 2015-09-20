@@ -282,7 +282,6 @@ $term_query->the_post();  ?>
 				}
 				?>
 				<?php
-
 					foreach ($featured as $brand) :?>
 					<li><a href="<?php echo get_term_link($brand->slug,'product_brand');?>">
 						<?php if (function_exists('z_taxonomy_image')) z_taxonomy_image($brand->term_id,'brand'); ?>
