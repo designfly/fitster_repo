@@ -1,4 +1,5 @@
 <?php get_header();?>
+<div class="page-margin"></div>
 	<div class="container category">
 		<div class="header">
 		<h1><strong>fitster</strong></h1>
