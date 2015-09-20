@@ -12638,3 +12638,19 @@ background-color: #fff;
 padding-top: 10px;
 }
 
+span.bwbps_addphoto_link {
+    background-color: #00AEEF;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    display: block;
+    line-height: 40px;
+    float: right;
+
+}
+
+span.bwbps_addphoto_link a{
+color: #fff;
+text-decoration: none;
+}
+
