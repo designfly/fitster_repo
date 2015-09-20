@@ -7548,6 +7548,7 @@ form#mpp-whats-new-form textarea{
 .profile .bg{
 	padding: 0px;
 	background-color: white;
+    margin-top: 186px;
 }
 
 .profile .under	{
@@ -10274,6 +10275,7 @@ form#mpp-whats-new-form #mpp-whats-new-submit{
 	background-color: white;
 	clear: both;
 	overflow: auto;
+    margin-top: 186px;
 }
 
 #home .naglowek{
@@ -10626,6 +10628,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	padding-bottom: 30px;
 	padding-left: 20px;
 	padding-right: 20px;
+    margin-top: 186px;
 }
 
 .woocommerce-checkout #payment{
@@ -10961,6 +10964,7 @@ div.bbp-submit-wrapper{
 
 .koszyk .bg{
 	padding-bottom: 50px;
+    margin-top: 186px;
 }
 
 .koszyk .header{
