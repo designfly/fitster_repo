@@ -13,6 +13,7 @@
   </div>
 </div>
  -->
+ <div class="page-margin"></div>
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
  <?php global $post,$product;?>
 <div id="produkt">
