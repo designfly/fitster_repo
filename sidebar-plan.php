@@ -1,4 +1,4 @@
-
+<div class="page-margin"></div>
 <div class="col-md-3 side-bar-plany">
 		<div class="row kategorie">
 			<ul>
