@@ -12611,6 +12611,11 @@ padding-left: 0px;
 padding-bottom: 20px;
 }
 
+#tiles > .col-md-3 p{
+text-align: center;
+padding-top: 10px;
+}
+
 #tiles > .col-md-3:hover {
 background-color: rgba(0, 173, 239,0.7);
 transition: 0.5s;
