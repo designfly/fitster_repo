@@ -1,5 +1,4 @@
-<div class="page-margin"></div>
-
+<?php global $bp;?>
 <div class="container profile">
 	<div class="header">
 		<h1><strong>ustawienia</strong></h1>
