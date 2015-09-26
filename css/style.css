@@ -12609,6 +12609,7 @@ padding-left: 0px;
 
 #tiles > a .col-md-3 {
 padding-bottom: 20px;
+    color: #000;
 }
 
 #tiles > a .col-md-3 p{
@@ -12625,6 +12626,7 @@ cursor: pointer;
     padding-left: 90px;
     padding-top: 20px;
 }
+
 
 .page-margin{
 padding-top: 195px;
