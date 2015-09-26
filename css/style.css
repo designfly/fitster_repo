@@ -12652,12 +12652,17 @@ span.bwbps_addphoto_link {
     display: block;
     line-height: 40px;
     float: left;
+    
 
 }
 
 span.bwbps_addphoto_link a{
 color: #fff;
 text-decoration: none;
+}
+
+span.bwbps_addphoto_link:hover{
+background-color: #121212;
 }
 
 .gallery-title {
