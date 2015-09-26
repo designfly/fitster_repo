@@ -20,7 +20,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/facebook_like_share.js"></script>
-
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/gallery_zoom_script.js"></script>
 	<?php wp_head();?>
 </head>
 <body>
