@@ -12723,10 +12723,3 @@ text-decoration: none;
 
 .title.fade-in.overlay:hover:before {
 	background: rgba(24, 188, 156, .5);
-}
-
-
-.fb-like {
-	margin-left: auto;
-	margin-right: auto
-}
