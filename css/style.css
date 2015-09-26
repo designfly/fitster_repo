@@ -12607,11 +12607,11 @@ padding-left: 0px;
     color: #fff !important;
 }
 
-#tiles > .col-md-3 {
+#tiles > a .col-md-3 {
 padding-bottom: 20px;
 }
 
-#tiles > .col-md-3 p{
+#tiles > a .col-md-3 p{
 text-align: center;
 padding-top: 10px;
 }
@@ -12621,7 +12621,7 @@ background-color: rgba(0, 173, 239,0.7);
 transition: 0.5s;
 cursor: pointer;
 }
-#tiles .col-md-3 img{
+#tiles a .col-md-3 img{
     padding-left: 90px;
     padding-top: 20px;
 }
