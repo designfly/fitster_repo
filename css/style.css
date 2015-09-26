@@ -12660,7 +12660,7 @@ color: #fff;
 text-decoration: none;
 }
 
-.title {
+.gallery-title {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
@@ -12669,12 +12669,12 @@ text-decoration: none;
 	max-width: 100%;
 }
 
-.title img {
+.gallery-title img {
 	display: block;
 	transition: all .6s ease-in-out;
 }
 
-.title:before, .title:after {
+.gallery-title:before, .title:after {
 	content: '';
 	position: absolute;
 	text-align: center;
@@ -12682,11 +12682,11 @@ text-decoration: none;
 	width: 100%;
 }
 
-.title:before {
+.gallery-title:before {
 	height: 100%;
 }
 
-.title:after {
+.gallery-title:after {
 	background: rgba(24, 188, 156,.9);
 	color: #fff;
 	content: attr(data-title);
@@ -12697,29 +12697,29 @@ text-decoration: none;
 	white-space: pre;
 }
 
-.title.fade-in:after {
+.gallery-title.fade-in:after {
 	opacity: 0;
 	top: 0;
 }
 
-.title.fade-in.bottom:after {
+.gallery-title.fade-in.bottom:after {
 	top: auto;
 	bottom: 0;
 }
 
-.title.fade-in.middle:after {
+.gallery-title.fade-in.middle:after {
 	top: 50%;
 	margin-top: -1.75em;
 }
 
-.title.fade-in:hover:after {
+.gallery-title.fade-in:hover:after {
 	opacity: 1;
 }
 
-.title.fade-in.overlay:before {
+.gallery-title.fade-in.overlay:before {
 	background: rgba(24, 188, 156, 0);
 }
 
-.title.fade-in.overlay:hover:before {
+.gallery-title.fade-in.overlay:hover:before {
 	background: rgba(24, 188, 156, .5);
 }
