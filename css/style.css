@@ -12724,34 +12724,3 @@ text-decoration: none;
 .title.fade-in.overlay:hover:before {
 	background: rgba(24, 188, 156, .5);
 }
-
-.title.move {
-	background: rgb(24, 188, 156);
-}
-
-.title.move:after {
-	background: rgb(24, 188, 156);
-	bottom: -3.5em;
-	z-index: 2;
-}
-
-.title.move:hover img {
-	-webkit-transform: translateY(-10%);
-	-moz-transform: translateY(-10%);
-	transform: translateY(-10%);
-}
-
-.title.move:hover:after {
-	bottom: 0;
-}
-
-.title.move.overlay:before {
-	top: 100%;
-	left: 0;
-	background: rgba(24, 188, 156, .5);
-	z-index: 1;
-}
-
-.title.move.overlay:hover:before {
-	top: 0;
-}
