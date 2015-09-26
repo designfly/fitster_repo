@@ -12674,7 +12674,7 @@ text-decoration: none;
 	transition: all .6s ease-in-out;
 }
 
-.gallery-title:before, .title:after {
+.gallery-title:before, .gallery-title:after {
 	content: '';
 	position: absolute;
 	text-align: center;
