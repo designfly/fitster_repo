@@ -12726,5 +12726,5 @@ text-decoration: none;
 }
 
 ul.bwbps_gallery li{
-float: none;
+float: none !important;
 }
