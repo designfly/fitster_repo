@@ -12679,11 +12679,9 @@ text-decoration: none;
 	position: absolute;
 	text-align: center;
 	transition: all .6s ease-in-out;
-	width: 100%;
 }
 
 .title:before {
-	height: 100%;
 }
 
 .title:after {
