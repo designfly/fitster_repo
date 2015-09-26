@@ -12661,14 +12661,17 @@ text-decoration: none;
 }
 
 .title {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
 	border: 1em solid #fff;
 	background: #111;
+	max-width: 100%;
 }
 
 .title img {
 	display: block;
 	transition: all .6s ease-in-out;
-
 }
 
 .title:before, .title:after {
