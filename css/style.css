@@ -12705,7 +12705,7 @@ text-decoration: none;
 }
 
 .title.fade-in.middle:after {
-	top: 0%;
+	top: 10%;
 	margin-top: -1.75em;
 }
 
