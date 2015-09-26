@@ -12667,6 +12667,7 @@ text-decoration: none;
 	border: 1em solid #fff;
 	background: #111;
 	max-width: 100%;
+    text-align: left;
 }
 
 .gallery-title img {
