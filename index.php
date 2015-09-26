@@ -48,25 +48,25 @@ $loop = new WP_Query(
 				<div class="row">
 				<div id="tiles">
 					
-					<a href="#"><div class="col-md-3">
+					<a href="<?php echo get_page_link(149); ?>"><div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sztanga.png">
 						<h2>Ćwiczenia</h2>
 						<p><?php echo get_option('fitster_cwiczenia');?></p>
 					</div>	</a>
 					
-					<a href="#">
+					<a href="<?php echo get_page_link(151); ?>">
 					<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/biceps.png">
 						<h2>Treningi</h2>
 						<p><?php echo get_option('fitster_treningi');?></p>
 					</div></a>
-					<a href="#">
+					<a href="<?php echo get_page_link(153); ?>">
 						<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/broccoli.png">
 						<h2>odżywianie</h2>
 						<p><?php echo get_option('fitster_odzywianie');?></p>
 					</div>	</a>
-					<a href="#">
+					<a href="<?php echo get_page_link(155); ?>">
 					<div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/proteins.png">
 						<h2>suplementacja</h2>
