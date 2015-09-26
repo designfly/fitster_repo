@@ -12666,6 +12666,7 @@ text-decoration: none;
 	overflow: hidden;
 	border: 1em solid #fff;
 	background: #111;
+	max-width: 100%;
 }
 
 .title img {
@@ -12679,9 +12680,11 @@ text-decoration: none;
 	position: absolute;
 	text-align: center;
 	transition: all .6s ease-in-out;
+	width: 100%;
 }
 
 .title:before {
+	height: 100%;
 }
 
 .title:after {
@@ -12706,7 +12709,7 @@ text-decoration: none;
 }
 
 .title.fade-in.middle:after {
-	top: 0%;
+	top: 50%;
 	margin-top: -1.75em;
 }
 
