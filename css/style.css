@@ -12722,7 +12722,7 @@ text-decoration: none;
 }
 
 .gallery-title.fade-in.overlay:hover:before {
-	background: rgba(24, 188, 156, .5);
+	background: #00AEEF;
 }
 
 ul.bwbps_gallery li{
