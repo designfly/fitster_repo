@@ -87,7 +87,7 @@ if ( $rating_count > 0 ) : ?>
 					?>
 				</a>
 				<span> | </span>
-				<a href="#" class="jump_review_add">Dodaj opinięxD</a>
+				<a href="#" class="jump_review_add">Dodaj opinię</a>
 			</div>
 <?php else : ?>
 			<div class="ocena ocena-empty">
@@ -114,7 +114,7 @@ if ( $rating_count > 0 ) : ?>
 
 			<div class="ilosc">
 			<?php if ($product->is_purchasable() ) :?>
-			<form method="post" enctype='multipart/form-data'>	
+			<form method="post" enctype='multipart/form-data' action='<?php echo $product->add_to_cart_url();?>''>
 					 	<?php
 	 		if ( ! $product->is_sold_individually() || !$product->is_in_stock())
 	 			?>
