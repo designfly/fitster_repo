@@ -2,6 +2,7 @@
  * Created by Rafal on 2015-09-19.
  */
 
+
 jQuery.noConflict();
 $('.searchField input').click(function() {
     $('.second-level .searchField input').animate({width: '450px'});
