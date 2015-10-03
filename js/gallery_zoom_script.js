@@ -1,3 +1,4 @@
+jQuery.noConflict();
 $(function($){
     var addToAll = false;
     var gallery = true;
