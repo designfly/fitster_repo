@@ -55,7 +55,7 @@ XD
 get_currentuserinfo();
 
 if($post->post_author == $current_user->ID) :?>  
-			<h2>Aktualizuj wykresxD</h2>
+			<h2>Aktualizuj wykres</h2>
 			<form method="POST">
 			<input type="date" name="update_date" required/>
 			<input type="text" name="update_value" required/>
