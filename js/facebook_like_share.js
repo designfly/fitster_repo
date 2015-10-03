@@ -13,9 +13,9 @@
 jQuery(function($) {
 
         $(".gallery-title").mouseover(function() {console.log('xd'); $(".fb_iframe_widget").css('z-index','2'); });
-        //$(".gallery-title").mouseout(function() {console.log('lol'); $(".fb_iframe_widget").css('z-index','-2'); });
+        $(".gallery-title").mouseout(function() {console.log('lol'); $(".fb_iframe_widget").css('z-index','-2'); });
         $(".fancybox").mouseover(function() { $(".fb_iframe_widget").css('z-index','2'); });
-        $(".fancybox").mouseout(function() { $(".fb_iframe_widget").css('z-index','-2'); });
+        //$(".fancybox").mouseout(function() { $(".fb_iframe_widget").css('z-index','-2'); });
 
 });
 
