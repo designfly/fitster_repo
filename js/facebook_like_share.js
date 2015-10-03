@@ -9,3 +9,10 @@
         js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.4";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+
+jQuery(function($) {
+        $(".fancybox").mouseover(function() { $(".fancybox").css('visibility','visible'); });
+        $(".fancybox").mouseover(function() { $(".fancybox").css('visibility','visible'); });
+        $(".fancybox").mouseout(function() { $(".fancybox").css('visibility','hidden'); });
+}
+
