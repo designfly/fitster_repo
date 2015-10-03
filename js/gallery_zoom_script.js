@@ -16,4 +16,4 @@ $(function($){
         titlePosition: titlePosition
     });
 })(jQuery);
-$.noConflict();
+jQuery.noConflict();
