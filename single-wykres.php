@@ -45,7 +45,7 @@ $gallery_url = $bp->root_domain . '/members/' . bp_get_loggedin_user_username() 
 	<div class="bg">
 		<div class="col-md-8">
 			<canvas id="chart">
-
+XD
 			</canvas>
 		</div>
 		
