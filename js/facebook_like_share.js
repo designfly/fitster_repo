@@ -11,7 +11,8 @@
     }(document, 'script', 'facebook-jssdk'));
 
 jQuery(function($) {
-        $('.fancybox').hover(function() {$('.fb_iframe_widget').show()});
-        $('.fb_iframe_widget').hover(function() {}, function() {$('.fb_iframe_widget').hide()});
+        $(".fancybox").mouseover(function() { $(".fb_iframe_widget").css('visibility','visible'); });
+        $(".fb_iframe_widget").mouseover(function() { $(".fb_iframe_widget").css('visibility','visible'); });
+        $(".fb_iframe_widget").mouseout(function() { $(".fb_iframe_widget").css('visibility','hidden'); });
 });
 
