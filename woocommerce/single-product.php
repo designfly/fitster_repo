@@ -87,7 +87,7 @@ if ( $rating_count > 0 ) : ?>
 					?>
 				</a>
 				<span> | </span>
-				<a href="#" class="jump_review_add">Dodaj opinię</a>
+				<a href="#" class="jump_review_add">Dodaj opinięxD</a>
 			</div>
 <?php else : ?>
 			<div class="ocena ocena-empty">
