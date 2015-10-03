@@ -13,7 +13,7 @@
 jQuery(function($) {
 
         $(".fancybox").mouseover(function() {console.log('xd'); $(".fb_iframe_widget").css('z-index','2'); });
-        //$(".fb_iframe_widget").mouseover(function() { $(".fb_iframe_widget").css('visibility','visible'); });
+        $(".fb_iframe_widget").mouseover(function() { $(".fb_iframe_widget").css('z-index','2'); });
         $(".fancybox").mouseout(function() {console.log('lol'); $(".fb_iframe_widget").css('z-index','-2'); });
 });
 
