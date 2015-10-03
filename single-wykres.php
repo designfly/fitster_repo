@@ -110,6 +110,7 @@ if($post->post_author == $current_user->ID) :?>
 <?php endwhile;endif;?>
 <?php get_footer();?>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/Chart.js"></script>  
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/Chart.js"></script>
 <script type="text/javascript">
 (function($) {
 $(".remove_date").click(function(e) {
