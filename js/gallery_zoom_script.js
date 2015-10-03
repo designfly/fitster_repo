@@ -1,5 +1,5 @@
 
-(function($){
+jQuery(function($){
     var addToAll = false;
     var gallery = true;
     var titlePosition = 'outside';
