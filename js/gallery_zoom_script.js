@@ -14,5 +14,5 @@ $(function($){
     $('a.fancybox').fancybox({
         titlePosition: titlePosition
     });
-});
+})(jQuery);
 $.noConflict();
