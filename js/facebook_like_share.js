@@ -12,8 +12,8 @@
 
 jQuery(function($) {
 
-        $(".fancybox").mouseover(function() {console.log('xd'); $(".fb-like").css('visibility','visible'); });
+        $(".fancybox").mouseover(function() {console.log('xd'); $(".pluginButtonContainer").css('visibility','visible'); });
         //$(".fb_iframe_widget").mouseover(function() { $(".fb_iframe_widget").css('visibility','visible'); });
-        $(".fancybox").mouseout(function() {console.log('lol'); $(".fb-like").css('visibility','hidden'); });
+        $(".fancybox").mouseout(function() {console.log('lol'); $(".pluginButtonContainer").css('visibility','hidden'); });
 });
 
