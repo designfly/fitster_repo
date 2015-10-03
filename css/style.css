@@ -12607,24 +12607,26 @@ padding-left: 0px;
     color: #fff !important;
 }
 
-#tiles > .col-md-3 {
+#tiles > a .col-md-3 {
 padding-bottom: 20px;
+    color: #000;
 }
 
-#tiles > .col-md-3 p{
+#tiles > a .col-md-3 p{
 text-align: center;
 padding-top: 10px;
 }
 
-#tiles > .col-md-3:hover {
+#tiles > a .col-md-3:hover {
 background-color: rgba(0, 173, 239,0.7);
 transition: 0.5s;
 cursor: pointer;
 }
-#tiles .col-md-3 img{
+#tiles a .col-md-3 img{
     padding-left: 90px;
     padding-top: 20px;
 }
+
 
 .page-margin{
 padding-top: 195px;
@@ -12652,12 +12654,17 @@ span.bwbps_addphoto_link {
     display: block;
     line-height: 40px;
     float: left;
+    
 
 }
 
 span.bwbps_addphoto_link a{
 color: #fff;
 text-decoration: none;
+}
+
+span.bwbps_addphoto_link:hover{
+background-color: #121212;
 }
 
 .gallery-title {
@@ -12722,5 +12729,9 @@ text-decoration: none;
 }
 
 .gallery-title.fade-in.overlay:hover:before {
-	background: rgba(24, 188, 156, .5);
+	background: #00AEEF;
+}
+
+ul.bwbps_gallery li{
+float: none !important;
 }
