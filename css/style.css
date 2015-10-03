@@ -12644,6 +12644,7 @@ background-color: #fff;
 
 .fb_iframe_widget{
 padding-top: 10px;
+	background-color: yellow;
 }
 
 span.bwbps_addphoto_link {
@@ -12737,6 +12738,3 @@ float: none !important;
 }
 
 
-.fblike{
-	background-color: yellow;
-}
