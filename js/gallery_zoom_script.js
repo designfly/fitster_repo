@@ -1,5 +1,5 @@
-jQuery.noConflict();
-$(function($){
+
+(function($){
     var addToAll = false;
     var gallery = true;
     var titlePosition = 'outside';
@@ -15,5 +15,4 @@ $(function($){
     $('a.fancybox').fancybox({
         titlePosition: titlePosition
     });
-})(jQuery);
-jQuery.noConflict();
+});
