@@ -14,5 +14,5 @@ jQuery(function($) {
         $(".fancybox").mouseover(function() { $(".fancybox").css('visibility','visible'); });
         $(".fancybox").mouseover(function() { $(".fancybox").css('visibility','visible'); });
         $(".fancybox").mouseout(function() { $(".fancybox").css('visibility','hidden'); });
-}
+});
 
