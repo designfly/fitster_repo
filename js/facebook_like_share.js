@@ -11,8 +11,7 @@
     }(document, 'script', 'facebook-jssdk'));
 
 jQuery(function($) {
-        $(".fancybox").mouseover(function() { $(".fancybox").css('visibility','visible'); });
-        $(".fancybox").mouseover(function() { $(".fancybox").css('visibility','visible'); });
-        $(".fancybox").mouseout(function() { $(".fancybox").css('visibility','hidden'); });
+        $('.fancybox').hover(function() {$('.fb_iframe_widget').show()});
+        $('.fb_iframe_widget').hover(function() {}, function() {$('.fb_iframe_widget').hide()});
 });
 
