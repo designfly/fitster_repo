@@ -11,7 +11,8 @@
     }(document, 'script', 'facebook-jssdk'));
 
 jQuery(function($) {
-        $(".fancybox").mouseover(function() { $(".fb_iframe_widget").css('visibility','visible'); });
+
+        $(".fancybox").mouseover(function() {console.log('xd'); $(".fb_iframe_widget").css('visibility','visible'); });
         $(".fb_iframe_widget").mouseover(function() { $(".fb_iframe_widget").css('visibility','visible'); });
         $(".fb_iframe_widget").mouseout(function() { $(".fb_iframe_widget").css('visibility','hidden'); });
 });
