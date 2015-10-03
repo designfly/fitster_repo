@@ -12643,7 +12643,8 @@ background-color: #fff;
 }
 
 .fb_iframe_widget{
-padding-top: 40px;
+padding-top: 10px;
+	top:40px;
 }
 
 span.bwbps_addphoto_link {
