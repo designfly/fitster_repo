@@ -14,6 +14,6 @@ jQuery(function($) {
 
         $(".fancybox").mouseover(function() {console.log('xd'); $(".fb_iframe_widget").css('visibility','visible'); });
         //$(".fb_iframe_widget").mouseover(function() { $(".fb_iframe_widget").css('visibility','visible'); });
-        $(".fancybox").mouseout(function() { $(".fb_iframe_widget").css('visibility','hidden'); });
+        $(".fancybox").mouseout(function() {console.log('lol'); $(".fb_iframe_widget").css('visibility','hidden'); });
 });
 
