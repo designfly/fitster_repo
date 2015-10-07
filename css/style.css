@@ -12740,14 +12740,9 @@ float: none !important;
 
 
 #fancybox-wrap {
-	position:relative;
+	position: absolute;
+	top: 50%;
 	left: 50%;
-	top:  50%;
-	/*
-        if, for instance, the image is 64x64 pixels,
-        then "move" it half its width/height to the
-        top/left by using negative margins
-    */
-	margin-left: -32px;
-	margin-top:  -32px;
+	margin-top: -50px;
+	margin-left: -100px;
 }
