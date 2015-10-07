@@ -12741,7 +12741,7 @@ float: none !important;
 
 #fancybox-wrap {
 	position: relative;
-	top: 50%;
-	left: 50%;
+	top: 0%;
+	left: 0%;
 	transform: translate(-50%, -50%);
 }
