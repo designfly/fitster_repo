@@ -12739,3 +12739,7 @@ float: none !important;
 }
 
 
+#fancybox-wrap {
+	position: absolute;
+	top: 100px !important;
+}

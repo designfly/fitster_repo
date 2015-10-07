@@ -16,10 +16,3 @@ jQuery(function($){
         titlePosition: titlePosition
     });
 });
-
-
-jQuery($(window).bind('resize', function() {
-    var top = ($(window).height() / 2) - ($(".fancybox-wrap").outerHeight() / 2);
-    var left = ($(window).width() / 2) - ($(".fancybox-wrap").outerWidth() / 2);
-    $(".fancybox-wrap").css({ top: top, left: left});
-}).trigger('resize'));
