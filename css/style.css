@@ -12739,11 +12739,3 @@ float: none !important;
 }
 
 
-#fancybox-wrap {
-  position: fixed;
-  top:300px;
-  left:50%;
-  width:400px;
-  height:200px;
-  margin-top:-100px; /* half the height */
-}
