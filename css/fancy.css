@@ -1,6 +1,6 @@
 #fancybox-wrap {
     position: fixed;
-    top: 0%;
+    top: 50px;
     left:50%;
     width:400px;
     height:200px;
