@@ -12740,6 +12740,7 @@ float: none !important;
 
 
 #fancybox-wrap {
-	position: absolute;
-	top: 100px !important;
+	position:fixed;
+	left: 50%;
+	top:  50%;
 }
