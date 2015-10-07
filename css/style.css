@@ -12740,8 +12740,10 @@ float: none !important;
 
 
 #fancybox-wrap {
-	position: relative;
-	top: 0%;
-	left: 0%;
-	transform: translate(-50%, -50%);
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:400px;
+  height:200px;
+  margin-top:-100px; /* half the height */
 }
