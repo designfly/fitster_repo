@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pl" style="margin:0 !important;">
 <head>
     <meta charset="utf-8">
@@ -26,6 +25,7 @@
 	<?php wp_head();?>
 </head>
 <body>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/gallery_zoom_script.js"></script>
 <nav class="navbar navbar-fixed-top yamm">
 	<div class="first-level">
 		<div class="container">
@@ -577,6 +577,4 @@ $fa_query->the_post();  ?>
 </nav>
 
 
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/gallery_zoom_script.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/searchFieldAnimation.js"></script>
-
