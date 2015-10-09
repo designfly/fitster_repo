@@ -574,8 +574,9 @@ $fa_query->the_post();  ?>
 	      </ul>
 	    </div>
   </div>
-</nav>	
+</nav>
 
 
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/searchFieldAnimation.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/gallery_zoom_script.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/searchFieldAnimation.js"></script>
+
