@@ -12643,7 +12643,7 @@ background-color: #fff;
 }
 
 .fb_iframe_widget{
-	position: fixed;
+	position: relative;
 	padding-top: 10px;
 	top:25px;
 	z-index:-2;
