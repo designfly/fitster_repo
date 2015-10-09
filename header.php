@@ -1,4 +1,4 @@
-<! DOCTYPE HTML PUBLIC "- / / W3C / / DTD HTML 4.01 Transitional / / EN" "http://www.w3.org/TR/html4/loose.dtd ">
+<!DOCTYPE html>
 <html lang="pl" style="margin:0 !important;">
 <head>
     <meta charset="utf-8">
@@ -22,7 +22,7 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/fancy.css" />
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/facebook_like_share.js"></script>
-
+\
 	<?php wp_head();?>
 </head>
 <body>
