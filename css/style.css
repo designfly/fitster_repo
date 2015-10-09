@@ -12738,6 +12738,13 @@ ul.bwbps_gallery li{
 float: none !important;
 }
 
+.fancybox-overlay{
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+
+}
+
 
 .fancybox-wrap{
 	position: fixed; /* or absolute */
