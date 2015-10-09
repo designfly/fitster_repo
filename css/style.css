@@ -12740,6 +12740,8 @@ float: none !important;
 
 
 .fancybox-outer{
-top:-1000px;
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
 
 }
