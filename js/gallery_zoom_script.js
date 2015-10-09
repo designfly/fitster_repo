@@ -12,6 +12,6 @@ $(function($){
     if (gallery)
         $('a.fancybox').attr('rel', 'fancyboxgallery');
     $('a.fancybox').fancybox({
-        titlePosition: titlePosition
+        titlePosition: titlePosition, width:'200%', height:'200%'
     });
 })
