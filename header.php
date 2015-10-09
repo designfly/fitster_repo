@@ -22,7 +22,7 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/fancy.css" />
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/facebook_like_share.js"></script>
-	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/gallery_zoom_script.js"></script>
+
 	<?php wp_head();?>
 </head>
 <body>
@@ -578,3 +578,4 @@ $fa_query->the_post();  ?>
 
 
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/searchFieldAnimation.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/gallery_zoom_script.js"></script>
