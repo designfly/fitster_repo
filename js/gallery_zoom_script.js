@@ -15,5 +15,3 @@ $(function($){
         titlePosition: titlePosition
     });
 })
-
-$.noConflict()
