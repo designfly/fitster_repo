@@ -12645,8 +12645,9 @@ background-color: #fff;
 .fb_iframe_widget{
 	position: fixed;
 	padding-top: 10px;
-	top:50px;
+	top:25px;
 	z-index:-2;
+	left:50%;
 }
 
 span.bwbps_addphoto_link {
