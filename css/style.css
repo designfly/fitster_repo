@@ -12644,7 +12644,7 @@ background-color: #fff;
 
 .fb_iframe_widget{
 	position: relative;
-	padding-top: 10%;
+	top:10%;
 	z-index:-2;
 
 }
