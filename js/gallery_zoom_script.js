@@ -12,7 +12,5 @@ jQuery(function($){
     });
     if (gallery)
         $('a.fancybox').attr('rel', 'fancyboxgallery');
-    $('a.fancybox').fancybox({
-        titlePosition: titlePosition
-    });
+
 });
