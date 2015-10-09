@@ -15,4 +15,4 @@ jQuery(function($){
     $('a.fancybox').fancybox({
         titlePosition: titlePosition
     });
-});
+}).noConflict();
