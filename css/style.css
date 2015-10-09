@@ -12644,7 +12644,7 @@ background-color: #fff;
 
 .fb_iframe_widget{
 	position: relative;
-	top:-50px;
+	top:50px;
 	z-index:-2;
 	transition-delay: 0.5s; /* delays for 1 second */
 	-webkit-transition-delay: 0.5s; /* for Safari & Chrome */
