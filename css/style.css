@@ -12644,10 +12644,10 @@ background-color: #fff;
 
 .fb_iframe_widget{
 	position: relative;
-	padding-top: 10px;
+	padding-top: 30px;
 	top:25px;
 	z-index:-2;
-	left:50%;
+
 }
 
 span.bwbps_addphoto_link {
