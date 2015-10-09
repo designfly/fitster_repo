@@ -12739,8 +12739,8 @@ float: none !important;
 }
 
 
-.fancybox-outer{
-	position: absolute; /* or absolute */
+.fancybox-wrap{
+	position: fixed; /* or absolute */
 	top: 50%;
 	left: 50%;
 
