@@ -12646,8 +12646,8 @@ background-color: #fff;
 	position: relative;
 	top:50px;
 	z-index:-2;
-	transition-delay: 1s; /* delays for 1 second */
-	-webkit-transition-delay: 1s; /* for Safari & Chrome */
+	transition-delay: 2s; /* delays for 1 second */
+	-webkit-transition-delay: 2s; /* for Safari & Chrome */
 }
 
 span.bwbps_addphoto_link {
