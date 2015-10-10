@@ -12734,7 +12734,7 @@ background-color: #121212;
 	background: rgba(0, 0, 0, 0);
 }
 
-.fb-like:hover > .gallery-title.fade-in:after{
+.fb-like:hover .gallery-title.fade-in:after{
 	opacity: 1;
 }
 
