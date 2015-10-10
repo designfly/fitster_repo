@@ -12729,11 +12729,12 @@ background-color: #121212;
 }
 
 .gallery-title.fade-in.overlay:before {
-	background: rgba(24, 188, 156, 0);
+
+	background: rgba(0, 0, 0, 0);
 }
 
 .gallery-title.fade-in.overlay:hover:before {
-	background: #000000;
+	background: #00AEEF;
 }
 
 ul.bwbps_gallery li{
