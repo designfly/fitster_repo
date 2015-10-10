@@ -12700,8 +12700,7 @@ background-color: #121212;
 }
 
 .gallery-title:after {
-	background: rgba(24, 188, 156,.9);
-	background: rgba(153, 204, 255, .9);
+	background: rgba(0, 174, 239, .9);
 	color: #fff;
 	content: attr(data-title);
 	line-height: 1.5em;
