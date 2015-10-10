@@ -15,7 +15,7 @@ jQuery(function($) {
         //$(".gallery-title").mouseover(function() { $(".fb_iframe_widget").css('z-index','2'); });
         //$(".fancybox").mouseover(function() { $(".fb_iframe_widget").css('z-index','2'); });
         $(".col-md-6").mouseout(function() {console.log('lol'); $(".fb_iframe_widget").css('z-index','-2'); });
-        $(".col-md-6").mouseover(function() {console.log('lol'); $this.find(".fb-like").css('z-index','2'); });
+        $(".col-md-6").mouseover(function() {console.log('lol'); $(this).find(".fb-like").css('z-index','2'); });
         //$(".col-md-6").mouseover(function() {console.log('lol'); $(".fb_iframe_widget").css('z-index','2'); });
         //$(".fancybox").mouseover(function() { $(".fb_iframe_widget").css('z-index','2'); });
         //$(".fancybox").mouseout(function() { $(".fb_iframe_widget").css('z-index','-2'); });
