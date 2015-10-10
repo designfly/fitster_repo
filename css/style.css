@@ -12726,7 +12726,7 @@ background-color: #121212;
 }
 
 .gallery-title.fade-in:hover:after {
-	opacity: 1;
+	opacity: 0.5;
 }
 
 .gallery-title.fade-in.overlay:before {
