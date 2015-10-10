@@ -12648,6 +12648,7 @@ background-color: #fff;
 	z-index:-2;
 	transition-delay: 0.5s; /* delays for 1 second */
 	-webkit-transition-delay: 0.5s; /* for Safari & Chrome */
+	transition: all .6s ease-in-out;
 }
 
 span.bwbps_addphoto_link {
@@ -12701,7 +12702,6 @@ background-color: #121212;
 .gallery-title:after {
 	background: rgba(24, 188, 156,.9);
 	background: rgba(153, 204, 255, .9);
-
 	color: #fff;
 	content: attr(data-title);
 	line-height: 1.5em;
