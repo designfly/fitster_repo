@@ -12711,7 +12711,7 @@ background-color: #121212;
 }
 
 .gallery-title.fade-in:after {
-
+	opacity: 0;
 	top: 0;
 }
 
