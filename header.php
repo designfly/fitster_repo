@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pl" style="margin:0 !important;">
 <head>
     <meta charset="utf-8">
